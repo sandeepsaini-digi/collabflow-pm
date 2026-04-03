@@ -4,41 +4,41 @@ A Jira/Trello-inspired project management platform with real-time collaboration,
 
 ![CollabFlow Preview](https://via.placeholder.com/1200x600/0f172a/3b82f6?text=CollabFlow+PM+Tool)
 
-## ✨ Features
+## Features
 
-### 📌 Core PM Features
+### Core PM Features
 - **Kanban Board** — Drag-and-drop task management with custom columns
 - **Sprint Planning** — Create sprints, assign story points, track velocity
 - **Gantt Chart** — Visual project timeline with dependency mapping
 - **Backlog Management** — Priority ordering, bulk actions, story points
 - **Epics & Stories** — Hierarchical work breakdown structure
 
-### ⚡ Real-time Collaboration
+### Real-time Collaboration
 - **Live Cursors** — See teammates' cursors on the board in real-time
 - **Instant Updates** — Task changes propagate to all users instantly via Socket.io
 - **Team Chat** — In-app messaging per project with @mentions
 - **Activity Feed** — Live audit log of all project activity
 - **Presence Indicators** — See who's online and what they're working on
 
-### 🔐 Access Control (RBAC)
+### Access Control (RBAC)
 - **Owner** — Full admin access, billing management
 - **Admin** — Manage members, project settings
 - **Member** — Create/edit tasks, comment, log time
 - **Viewer** — Read-only access
 
-### 🤖 AI Features
+### AI Features
 - **Task Auto-suggest** — AI breaks down high-level goals into subtasks
 - **Time Estimation** — GPT estimates effort based on task description + historical data
 - **Risk Detection** — AI flags overdue tasks and team bottlenecks
 - **Meeting Notes Summarizer** — Paste meeting transcript → AI creates action items
 
-### 📊 Analytics
+### Analytics
 - **Burndown Charts** — Sprint progress visualization
 - **Team Velocity** — Story points completed per sprint
 - **Individual Metrics** — Task completion rate per member
 - **Cycle Time** — Average time from "In Progress" to "Done"
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -53,7 +53,7 @@ A Jira/Trello-inspired project management platform with real-time collaboration,
 | Charts | Recharts |
 | File Storage | AWS S3 (attachments) |
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── client/                     # React frontend
@@ -97,7 +97,7 @@ A Jira/Trello-inspired project management platform with real-time collaboration,
 │           └── User.ts
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 # Clone & install
@@ -115,7 +115,7 @@ cp server/.env.example server/.env
 npm run dev
 ```
 
-## ⚡ Socket.io Events
+## Socket.io Events
 
 ### Board Events
 ```javascript
@@ -134,7 +134,7 @@ socket.emit('message:send', { projectId, content, mentions })
 socket.on('message:new', (message) => { /* update UI */ })
 ```
 
-## 🔐 RBAC Implementation
+## RBAC Implementation
 
 ```typescript
 // Middleware example

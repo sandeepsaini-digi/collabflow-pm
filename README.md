@@ -2,8 +2,6 @@
 
 A Jira/Trello-inspired project management platform with real-time collaboration, AI task suggestions, and team analytics. Built with MERN stack, Socket.io, Redis, and JWT-based RBAC.
 
-![CollabFlow Preview](https://via.placeholder.com/1200x600/0f172a/3b82f6?text=CollabFlow+PM+Tool)
-
 ## Features
 
 ### Core PM Features

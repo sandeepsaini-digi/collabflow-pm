@@ -2,6 +2,7 @@
 
 A Jira/Trello-inspired project management platform with real-time collaboration, AI task suggestions, and team analytics. Built with MERN stack, Socket.io, Redis, and JWT-based RBAC.
 
+
 ## Features
 
 ### Core PM Features

@@ -154,6 +154,6 @@ router.delete('/tasks/:id', requireRole('admin'), deleteTask);
 router.patch('/tasks/:id', requireRole('member'), updateTask);
 ```
 
-## 📄 License
+## License
 
 MIT License
